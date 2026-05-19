@@ -1,0 +1,4 @@
+interface:
+  display_name: "Novel Generation"
+  short_description: "Long-form novel planning, drafting, and continuity"
+  default_prompt: "Use $novel-generation to plan and generate a coherent long-form novel project."

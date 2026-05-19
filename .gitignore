@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated local test projects
+novel-project/
+test-novel-project/
+
+# Local editor and runtime files
+.env
+.env.*
+.vscode/
+.idea/
