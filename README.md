@@ -7,6 +7,8 @@ This skill treats a novel as an auditable production system:
 - story bible and ledgers as the source of truth
 - architecture and chapter directory before drafting
 - anchor chapters before bulk generation
+- genre-adaptive craft modules selected by reader promise
+- design bible cards for characters, relationships, factions, mechanisms, and reveal curves
 - 5-10 chapter batches by default
 - continuity, timeline, foreshadowing, style, and reader-experience audits after each batch
 - resumable long-running state in `.codex-longtask/state.json`
@@ -23,6 +25,7 @@ novel-generation/
 │   ├── audit-protocol.md
 │   ├── bible-and-ledgers.md
 │   ├── chapter-production.md
+│   ├── genre-adaptive-quality.md
 │   ├── longtask-autoresume.md
 │   ├── reader-experience.md
 │   ├── screenwriting-craft.md
@@ -60,12 +63,14 @@ The generated workspace includes `source/`, `bible/`, `plan/`, `chapters/`, `sum
 
 1. Project setup and mode choice
 2. Architecture checkpoint
-3. Directory checkpoint
-4. Anchor chapters and voice approval
-5. Batch generation
-6. Batch audit
-7. Ledger updates and directory micro-adjustment
-8. Repeat until final audit and export
+3. Design bible checkpoint
+4. Directory checkpoint
+5. Anchor chapters and voice approval
+6. Batch design card
+7. Batch generation
+8. Batch audit and repair
+9. Ledger updates and directory micro-adjustment
+10. Repeat until final audit and export
 
 ## Notes
 
