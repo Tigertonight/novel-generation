@@ -12,9 +12,9 @@ Decide:
 
 Run `scripts/init_novel_project.py` for a new project. Copy user notes into `source/`.
 
-## Phase 1 - Market Research And Positioning
+## Phase 1 - Market Positioning And Optional Research
 
-When the project is commercial, platform-facing, male-channel, female-channel, genre-serial, trend-sensitive, or vague, run `webnovel-market-research.md` before architecture.
+When the project is commercial, platform-facing, male-channel, female-channel, genre-serial, trend-sensitive, or vague, run `webnovel-market-positioning.md` before architecture. If current platform/category signals matter, run `webnovel-market-research.md` as a dynamic supplement.
 
 Produce or update:
 - `research/market-research.md`
@@ -36,7 +36,7 @@ Market positioning must include:
 - long-serialization engine
 - comparable matrix
 - trope engine and differentiation
-- protagonist starting pressure and long arc
+- protagonist starting pressure and long arc: comeback, rise-to-the-top, identity reversal, relationship pull, career growth, faction expansion, or another explicit engine
 - key supporting role model: protagonist team, multi-heroine/single-heroine/no-heroine, central couple, ensemble, family/workplace/court/faction network, or other
 - saturation risk and anti-copycat rule
 

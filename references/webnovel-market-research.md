@@ -1,6 +1,6 @@
 # Webnovel Market Research
 
-Use this reference during project setup, topic selection, market positioning, style discovery, and architecture. Its purpose is to dynamically supplement the skill's baseline craft knowledge with current public information from novel platforms, official sites, rankings, book pages, reviews, author notes, genre tags, and other open web sources.
+Use this reference during project setup, topic selection, market positioning, style discovery, and architecture. Its purpose is to dynamically supplement the baseline industry knowledge in `webnovel-market-positioning.md` with current public information from novel platforms, official sites, rankings, book pages, reviews, author notes, genre tags, and other open web sources.
 
 Do not treat this as copying. Research is for understanding market signals, reader contracts, trope patterns, pacing expectations, title/tag conventions, and comparable positioning. The resulting novel must remain original.
 
@@ -12,6 +12,8 @@ Run dynamic market research when:
 - the project depends on current platform taste, rankings, tags, or reader expectations
 - the user asks for comparable works, benchmark works, platform fit, writing style references, or industry best practices
 - style discovery needs market-facing examples rather than only abstract prose preferences
+
+Before browsing, read `webnovel-market-positioning.md` to form baseline questions. Browsing should update, challenge, or specialize those assumptions; it should not replace positioning judgment.
 
 Skip or shorten when:
 - the user explicitly wants an experimental, private, literary, or non-market-facing draft

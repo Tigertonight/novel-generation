@@ -18,7 +18,7 @@ Design inheritance:
 
 ```text
 Phase 0  Project setup + mode choice
-Phase 1  Market research + positioning: public sources, platform/category signals, target channel, reader contract, comparable matrix, topic selection card
+Phase 1  Market positioning + optional research: channel, reader contract, commercial hook, trope engine, first-three-chapter promise, public-source market signals when needed
    v [Checkpoint Positioning when market direction is uncertain]
 Phase 2  Architecture: premise, genre promise, theme, dramatic question, volumes, arcs, cast, world, style discovery, adaptive craft modules
    v [Checkpoint Architecture]
@@ -89,10 +89,12 @@ novel-project/
 23. For every major organization or institution, maintain a faction/institution card with wants, fears, resources, debts, secrets, internal divisions, public/private positions, leverage, and vulnerability.
 24. For mystery, conspiracy, hidden-history, or mechanism-heavy stories, design clue/reveal curves before drafting: question, clue, misread, contradiction, partial reveal, cost of knowing, and later payoff.
 25. When market direction matters, run dynamic webnovel market research before architecture. Use public official platform pages, rankings, category/tag pages, book detail pages, public reviews, and user-provided examples to build a source-cited market research packet. Do not scrape locked content, reproduce long excerpts, or copy plot/prose; convert findings into original positioning, reader contract, trope engine, character design, and style constraints.
+26. For webnovel projects, use baseline market positioning knowledge even without browsing: male-channel/female-channel/cross-channel reader contracts, payoff rhythm, first-three-chapter promise, long-serial engine, protagonist/team/relationship design, and trope engines such as comeback, rise-to-the-top, face-slap, rebirth, transmigration, system, faction expansion, identity reversal, and relationship pull. Treat these as market patterns, not rigid formulas.
 
 ## What To Read When
 
 - `references/workflow-phases.md`: phase-by-phase outputs and checkpoints.
+- `references/webnovel-market-positioning.md`: baseline webnovel industry knowledge for male-channel/female-channel/cross-channel positioning, reader contracts, trope libraries, protagonist/team/relationship design, first-three-chapter hooks, long-serialization engines, and benchmark usage.
 - `references/webnovel-market-research.md`: dynamic public-source research for platform/category signals, male-channel/female-channel reader contracts, comparable matrices, topic selection cards, and market-informed planning.
 - `references/bible-and-ledgers.md`: memory architecture that fixes long-novel drift.
 - `references/chapter-production.md`: anchor chapters, batch size, chapter prompt assembly, finalization.
@@ -109,7 +111,7 @@ novel-project/
 When the user only says "write/generate a long novel":
 1. Ask for or infer premise, genre, target length, audience, tone, and taboo constraints.
 2. Create project scaffold.
-3. If the project is market-facing or the direction is vague, run webnovel market research and produce a positioning card before architecture.
+3. If the project is market-facing or the direction is vague, use webnovel market positioning; when current platform signals matter, run webnovel market research and produce a positioning card before architecture.
 4. Produce architecture, design bible, and directory first.
 5. Stop for checkpoint review before chapters.
 

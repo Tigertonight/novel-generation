@@ -5,6 +5,7 @@ Codex skill for planning, generating, auditing, and resuming long-form novel pro
 This skill treats a novel as an auditable production system:
 
 - story bible and ledgers as the source of truth
+- baseline webnovel market positioning for male-channel, female-channel, and cross-channel projects
 - dynamic public-source market research before planning when platform fit matters
 - architecture and chapter directory before drafting
 - anchor chapters before bulk generation
@@ -31,6 +32,7 @@ novel-generation/
 │   ├── reader-experience.md
 │   ├── screenwriting-craft.md
 │   ├── style-discovery.md
+│   ├── webnovel-market-positioning.md
 │   ├── webnovel-market-research.md
 │   └── workflow-phases.md
 └── scripts/
@@ -64,7 +66,7 @@ The generated workspace includes `source/`, `research/`, `bible/`, `plan/`, `cha
 ## Core Workflow
 
 1. Project setup and mode choice
-2. Market research and positioning when current platform/category knowledge matters
+2. Market positioning, with dynamic public-source research when current platform/category knowledge matters
 3. Architecture checkpoint
 4. Design bible checkpoint
 5. Directory checkpoint

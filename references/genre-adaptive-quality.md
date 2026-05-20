@@ -32,7 +32,22 @@ Modules to avoid unless naturally required:
 
 Do not add combat, romance, mystery, faction politics, or power-ups merely because the module exists. Use the module only when it fulfills the genre contract or the current arc's natural pressure.
 
-If current market fit matters, use `webnovel-market-research.md` before finalizing these choices. Treat male-channel/female-channel/platform signals as reader-contract evidence, not as rigid gender essentialism.
+For webnovel projects, use `webnovel-market-positioning.md` before finalizing these choices. If current market fit matters, use `webnovel-market-research.md` as a dynamic supplement. Treat male-channel/female-channel/platform signals as reader-contract evidence, not as rigid gender essentialism.
+
+## Channel And Market Modules
+
+Enable these modules only when they fit the target lane and project promise:
+
+- `Male-Channel Reward Loop`: comeback, rise-to-the-top, upgrade, resource, rank, public correction, territory/faction expansion, or freedom payoff.
+- `Female-Channel Relationship / Identity Loop`: identity reversal, social-field pressure, emotional agency, relationship state movement, dignity recovery, competence display, or self-determination.
+- `Face-Slap / Public Correction`: false public belief, opponent leverage, protagonist preparation, witness reaction, and consequence.
+- `Growth / Upgrade Engine`: trigger, resource, limit, cost, failure mode, next threshold, and enemy counter.
+- `Rebirth / Transmigration Advantage`: information advantage, blind spots, changed timeline, old wound, and new consequence.
+- `System / Mechanism Engine`: rule, reward, loophole, cost, failure mode, and protagonist agency beyond the system.
+- `Protagonist Team`: differentiated roles, desires, limits, loyalty tension, and rotating contribution.
+- `Multi-Heroine / Relationship-Light / Single-Heroine Choice`: explicit reader contract, each important character's agency, boundaries, desire, arc, and consequence.
+- `Social Field / Institution Pressure`: family, workplace, court, school, sect, entertainment, law, money, reputation, etiquette, taboo, or public opinion.
+- `Long-Serial Expansion`: map, stakes, faction pressure, resource scale, secret depth, emotional obligation, and cost expansion.
 
 ## Planning Outputs
 
