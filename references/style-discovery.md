@@ -21,7 +21,7 @@ Skip or shorten when:
 
 ```text
 1. Identify project genre and reader promise
-2. Build comparable reference matrix
+2. Build or reuse comparable reference matrix from `research/market-research.md`
 3. Translate references into Style DNA candidates
 4. Present 2-3 style directions or a recommended blend
 5. Generate a short style trial
@@ -35,6 +35,8 @@ Skip or shorten when:
 When browsing is available and current market awareness matters, research comparable works from reputable sources such as platform rankings, publisher pages, Goodreads, Douban, Qidian/Jinjiang ranking pages, major review sites, or user-provided examples.
 
 Do not paste copyrighted excerpts. Summarize style dimensions only.
+
+For market-facing webnovels, prefer using `webnovel-market-research.md` first, then translate the market research packet into style choices. Do not only ask "what prose style"; also infer the platform's reading rhythm and tolerance for exposition, hooks, dialogue directness, and payoff frequency.
 
 Use at least three categories:
 
@@ -59,6 +61,17 @@ Use at least three categories:
 - Sensory density:
 - Dialogue texture:
 - Do not borrow:
+
+### Same-Platform / Same-Channel References
+- Works/platforms checked:
+- Male-channel / female-channel / cross-channel assumptions:
+- Platform rhythm:
+- Hook density:
+- Payoff frequency:
+- Exposition tolerance:
+- Dialogue directness:
+- Chapter ending habit:
+- Do not borrow:
 ```
 
 If no browsing is available, infer comparable categories from stable genre knowledge and state that the matrix is inferred, not market-verified.
@@ -78,6 +91,9 @@ Translate reference learning into original control parameters:
 - Description priority: action / atmosphere / interiority / objects / institutions / social detail
 - Dialogue texture: casual / sharp / restrained / subtext-heavy / comedic
 - Chapter hook style: question / reversal / cost / cliffhanger / emotional aftershock
+- Platform rhythm: fast-hook web-serial / immersive long-scene / short-chapter punch / slow-burn emotional / literary
+- Payoff density: low / medium / high
+- Exposition tolerance: low / medium / high
 - Forbidden habits: over-explanation, abstract theme statements, generic AI eloquence, repeated paragraph shape
 ```
 

@@ -6,12 +6,43 @@ Decide:
 - project path
 - language
 - genre and target audience
+- whether the project needs dynamic market research
 - target length: chapters, words/characters per chapter, volumes/arcs
 - generation mode: assisted, batch, auto-resume
 
 Run `scripts/init_novel_project.py` for a new project. Copy user notes into `source/`.
 
-## Phase 1 - Architecture
+## Phase 1 - Market Research And Positioning
+
+When the project is commercial, platform-facing, male-channel, female-channel, genre-serial, trend-sensitive, or vague, run `webnovel-market-research.md` before architecture.
+
+Produce or update:
+- `research/market-research.md`
+- `plan/market-positioning.md`
+
+Use current public sources when browsing is available:
+- official platform rankings, category/tag pages, recommendation pages, and book detail pages
+- public reviews and catalog pages
+- user-provided comparable works, screenshots, title lists, or links
+
+Do not reproduce long excerpts, paid chapters, locked content, or distinctive prose. Summarize source signals, cite URLs/locators and access dates, and separate observed market evidence from inference.
+
+Market positioning must include:
+- target channel: male-channel / female-channel / cross-channel / literary / other
+- target platform style and audience
+- one-line commercial hook
+- core reader pleasure and reader anxiety
+- first-three-chapter promise
+- long-serialization engine
+- comparable matrix
+- trope engine and differentiation
+- protagonist starting pressure and long arc
+- key supporting role model: protagonist team, multi-heroine/single-heroine/no-heroine, central couple, ensemble, family/workplace/court/faction network, or other
+- saturation risk and anti-copycat rule
+
+Checkpoint Positioning: if the market lane, target reader, or commercial hook is unclear, stop and ask the user to approve or choose among 2-3 positioning options before architecture.
+
+## Phase 2 - Architecture
 
 Produce `plan/architecture.md` and update:
 - `bible/story-bible.md`
@@ -20,6 +51,7 @@ Produce `plan/architecture.md` and update:
 - `bible/style-bible.md`
 
 Architecture must include:
+- positioning card summary: channel, reader contract, platform style, hook, trope engine, differentiation
 - core seed: premise, promise, central dramatic question
 - ending vector: not every detail, but the thematic destination
 - volume/arc map
@@ -37,11 +69,11 @@ Architecture must include:
 - prose style discovery result: comparable reference matrix, selected Style DNA, scene style modes, and anti-style rules
 - prose style contract: style must be original, not imitation of a named living author
 
-If the user has not supplied a clear prose style, run `style-discovery.md` before finalizing architecture. Give the user 2-3 style candidates or a recommended blend, then lock the selected direction into `bible/style-bible.md`.
+If the user has not supplied a clear prose style, run `style-discovery.md` before finalizing architecture. For market-facing webnovels, feed it the comparable matrix and platform rhythm from `research/market-research.md`. Give the user 2-3 style candidates or a recommended blend, then lock the selected direction into `bible/style-bible.md`.
 
 Checkpoint Architecture: stop and ask the user to approve or refine. Do not generate the chapter directory before this is stable.
 
-## Phase 2 - Directory
+## Phase 3 - Directory
 
 Produce:
 - `plan/volume-map.md`
@@ -77,7 +109,7 @@ For the opening movement, also review:
 - whether chapters include stage-level escalation and reversals instead of flat clue delivery
 - whether each early scene has a goal, obstacle, result, and value shift
 
-## Phase 3 - Anchor Chapters
+## Phase 4 - Anchor Chapters
 
 Generate chapter 1 and one risk chapter, usually:
 - first chapter for voice, density, pacing
@@ -100,7 +132,7 @@ Audit them. Ask the user to approve:
 
 Do not bulk-generate until anchor chapters are approved.
 
-## Phase 4 - Batch Generation
+## Phase 5 - Batch Generation
 
 Default batch size: 5-10 chapters.
 
@@ -112,7 +144,7 @@ For each chapter:
 5. save audit to `audits/chapter-NNN-audit.md`
 6. append facts to ledger drafts
 
-## Phase 5 - Batch Audit
+## Phase 6 - Batch Audit
 
 After each batch, produce `audits/batch-XXX-audit.md`:
 - plot coverage

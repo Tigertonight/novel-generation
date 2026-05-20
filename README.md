@@ -5,6 +5,7 @@ Codex skill for planning, generating, auditing, and resuming long-form novel pro
 This skill treats a novel as an auditable production system:
 
 - story bible and ledgers as the source of truth
+- dynamic public-source market research before planning when platform fit matters
 - architecture and chapter directory before drafting
 - anchor chapters before bulk generation
 - genre-adaptive craft modules selected by reader promise
@@ -30,6 +31,7 @@ novel-generation/
 │   ├── reader-experience.md
 │   ├── screenwriting-craft.md
 │   ├── style-discovery.md
+│   ├── webnovel-market-research.md
 │   └── workflow-phases.md
 └── scripts/
     └── init_novel_project.py
@@ -57,20 +59,21 @@ Use the scaffold script to create the recommended project layout:
 python ~/.codex/skills/novel-generation/scripts/init_novel_project.py ./novel-project
 ```
 
-The generated workspace includes `source/`, `bible/`, `plan/`, `chapters/`, `summaries/`, `audits/`, `exports/`, and `.codex-longtask/`.
+The generated workspace includes `source/`, `research/`, `bible/`, `plan/`, `chapters/`, `summaries/`, `audits/`, `exports/`, and `.codex-longtask/`.
 
 ## Core Workflow
 
 1. Project setup and mode choice
-2. Architecture checkpoint
-3. Design bible checkpoint
-4. Directory checkpoint
-5. Anchor chapters and voice approval
-6. Batch design card
-7. Batch generation
-8. Batch audit and repair
-9. Ledger updates and directory micro-adjustment
-10. Repeat until final audit and export
+2. Market research and positioning when current platform/category knowledge matters
+3. Architecture checkpoint
+4. Design bible checkpoint
+5. Directory checkpoint
+6. Anchor chapters and voice approval
+7. Batch design card
+8. Batch generation
+9. Batch audit and repair
+10. Ledger updates and directory micro-adjustment
+11. Repeat until final audit and export
 
 ## Notes
 

@@ -17,11 +17,12 @@ Different genres need different kinds of pressure:
 
 ## Genre Promise First
 
-During architecture and before every batch, identify:
+During market positioning, architecture, and before every batch, identify:
 
 ```text
 Primary genre promise:
 Secondary genre promise:
+Target channel / platform style:
 Reader's expected pleasures:
 Reader's expected anxieties:
 Modules to enable:
@@ -31,6 +32,8 @@ Modules to avoid unless naturally required:
 
 Do not add combat, romance, mystery, faction politics, or power-ups merely because the module exists. Use the module only when it fulfills the genre contract or the current arc's natural pressure.
 
+If current market fit matters, use `webnovel-market-research.md` before finalizing these choices. Treat male-channel/female-channel/platform signals as reader-contract evidence, not as rigid gender essentialism.
+
 ## Planning Outputs
 
 Before bulk chapter generation, create or update the planning artifacts that match the genre. Use compact files or sections; do not overbuild unused systems.
@@ -38,6 +41,8 @@ Before bulk chapter generation, create or update the planning artifacts that mat
 Recommended baseline:
 
 ```text
+research/market-research.md       source-cited market signals and comparable matrix when needed
+plan/market-positioning.md        channel, platform style, reader contract, hook, trope engine
 plan/architecture.md              premise, theme, dramatic question, genre promise
 plan/volume-map.md                macro arcs and major turns
 plan/directory.md                 chapter/arc directory

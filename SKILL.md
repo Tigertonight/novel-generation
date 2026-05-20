@@ -18,21 +18,23 @@ Design inheritance:
 
 ```text
 Phase 0  Project setup + mode choice
-Phase 1  Architecture: premise, genre promise, theme, dramatic question, volumes, arcs, cast, world, style discovery, adaptive craft modules
+Phase 1  Market research + positioning: public sources, platform/category signals, target channel, reader contract, comparable matrix, topic selection card
+   v [Checkpoint Positioning when market direction is uncertain]
+Phase 2  Architecture: premise, genre promise, theme, dramatic question, volumes, arcs, cast, world, style discovery, adaptive craft modules
    v [Checkpoint Architecture]
-Phase 2  Design bible: character cards, relationship map, faction/institution map, mechanism map, mystery/foreshadowing plan, emotional and growth curves
+Phase 3  Design bible: character cards, relationship map, faction/institution map, mechanism map, mystery/foreshadowing plan, emotional and growth curves
    v [Checkpoint Design Bible]
-Phase 3  Directory: volume map + chapter directory + batch plan
+Phase 4  Directory: volume map + chapter directory + batch plan
    v [Checkpoint Directory]
-Phase 4  Anchor chapters: chapter 1 + one opening-movement engagement chapter + one mid-arc risk chapter
+Phase 5  Anchor chapters: chapter 1 + one opening-movement engagement chapter + one mid-arc risk chapter
    v [Hard node: user approves voice/quality]
-Phase 5  Batch design card: genre focus, crisis mix, growth loop, relationship/setting/mechanism needs
-Phase 6  Batch generation: write to the design card, not just to the previous chapter
-Phase 7  Batch audit: continuity, reader experience, growth, crisis, mechanism clarity, character, foreshadowing, style, repetition
-Phase 8  Repair/polish until audit exit standard is met
-Phase 9  Ledger updates + directory micro-adjustment
-Phase 10 Repeat Phase 5-9 until complete
-Phase 11 Final audit + export
+Phase 6  Batch design card: genre focus, crisis mix, growth loop, relationship/setting/mechanism needs
+Phase 7  Batch generation: write to the design card, not just to the previous chapter
+Phase 8  Batch audit: continuity, reader experience, growth, crisis, mechanism clarity, character, foreshadowing, style, repetition
+Phase 9  Repair/polish until audit exit standard is met
+Phase 10 Ledger updates + directory micro-adjustment
+Phase 11 Repeat Phase 6-10 until complete
+Phase 12 Final audit + export
 ```
 
 Default chapter target: 2500-4000 Chinese characters or comparable prose length. Avoid 8000+ character chapters unless the user explicitly accepts slower, higher-failure generation and more revision passes.
@@ -50,6 +52,7 @@ Then place user source material in `source/` and fill or generate files in this 
 ```text
 novel-project/
 ├── source/               raw user ideas, notes, references
+├── research/             market research, comparable matrix, source notes
 ├── bible/                story, character, world, style, continuity truth sources
 ├── plan/                 architecture, directory, batch/generation plan
 ├── chapters/             chapter-NNN.md files
@@ -85,10 +88,12 @@ novel-project/
 22. For every important relationship, maintain a relationship-state line: current trust level, unresolved tension, what each side wants from the other, what changed recently, and what would test or deepen the bond.
 23. For every major organization or institution, maintain a faction/institution card with wants, fears, resources, debts, secrets, internal divisions, public/private positions, leverage, and vulnerability.
 24. For mystery, conspiracy, hidden-history, or mechanism-heavy stories, design clue/reveal curves before drafting: question, clue, misread, contradiction, partial reveal, cost of knowing, and later payoff.
+25. When market direction matters, run dynamic webnovel market research before architecture. Use public official platform pages, rankings, category/tag pages, book detail pages, public reviews, and user-provided examples to build a source-cited market research packet. Do not scrape locked content, reproduce long excerpts, or copy plot/prose; convert findings into original positioning, reader contract, trope engine, character design, and style constraints.
 
 ## What To Read When
 
 - `references/workflow-phases.md`: phase-by-phase outputs and checkpoints.
+- `references/webnovel-market-research.md`: dynamic public-source research for platform/category signals, male-channel/female-channel reader contracts, comparable matrices, topic selection cards, and market-informed planning.
 - `references/bible-and-ledgers.md`: memory architecture that fixes long-novel drift.
 - `references/chapter-production.md`: anchor chapters, batch size, chapter prompt assembly, finalization.
 - `references/audit-protocol.md`: P0/P1/P2 audit rules and repair policy.
@@ -104,8 +109,9 @@ novel-project/
 When the user only says "write/generate a long novel":
 1. Ask for or infer premise, genre, target length, audience, tone, and taboo constraints.
 2. Create project scaffold.
-3. Produce architecture, design bible, and directory first.
-4. Stop for checkpoint review before chapters.
+3. If the project is market-facing or the direction is vague, run webnovel market research and produce a positioning card before architecture.
+4. Produce architecture, design bible, and directory first.
+5. Stop for checkpoint review before chapters.
 
 When the user already has a bible/directory:
 1. Import it into `bible/` and `plan/`.
