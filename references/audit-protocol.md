@@ -5,7 +5,7 @@ Audit before calling a chapter or batch finalized.
 ## Severity
 
 P0 - Must Fix
-: Contradicts canon, breaks timeline, changes character knowledge impossibly, pays off unplanted key twist, loses required chapter beat, violates user taboo, or makes future plan impossible.
+: Contradicts canon, breaks timeline, changes character knowledge impossibly, pays off unplanted key twist, loses required chapter beat, violates user taboo, makes future plan impossible, drops an important object/mechanism without planned payoff/loss/retirement, or fails a required romance/intimacy/payoff promise across a batch.
 
 P1 - Should Fix
 : Weak motivation, thin character impression, invisible world/background, flat pacing, missing dramatic action, missing value shift, style drift from Style DNA, generic AI prose, repeated scene pattern, unclear geography, chapter too short/long, foreshadowing vague, continuity likely to confuse readers.
@@ -29,21 +29,32 @@ Pass / Needs repair
 - Timeline:
 - Character knowledge:
 - Physical/object state:
+- Object/weapon/system/clue ledger state:
 - World rules:
 
 ## Character
 - Motivation:
 - First impression / memorability:
+- New character entrance clarity:
+- Identity/role/context anchor for new characters:
 - Exterior or behavioral specificity:
+- Appearance/current-state specificity:
+- Side-view impression, if entrance matters:
+- POV/interiority specificity:
+- Interior reaction after major external beats:
 - Ghost / Lie / Flaw pressure:
 - Want / Need tension:
 - Relationship changes:
+- Heat/intimacy movement, if enabled:
 - Voice consistency:
 
 ## World And Background
 - World facts naturally shown:
 - Institutions/stakes/constraints visible in scene:
 - Exposition risk:
+- Professional/jargon density:
+- Plain consequence after technical detail:
+- Career/workline compression:
 
 ## Foreshadowing
 - Planted:
@@ -51,12 +62,30 @@ Pass / Needs repair
 - Paid:
 - Risks:
 
+## Reward / Payoff
+- Setup honored:
+- Payoff delivered or deliberately delayed:
+- Payoff type:
+- Cost / consequence:
+- Variety vs previous chapters:
+
+## Intimacy / Heat, If Enabled
+- Explicitness boundary honored:
+- Adult consent/agency clear:
+- Scene function:
+- Desire specific to this pair:
+- Physical choreography:
+- Emotional turn:
+- Aftermath or planned aftermath:
+- Relationship state changed:
+
 ## Style And Craft
 - Pacing:
 - Chapter turn or reversal:
 - Stage conflict:
 - Dramatic action: goal -> obstacle -> result:
 - Value shift:
+- Interior turn:
 - Dual-track pacing: external plot / internal emotion:
 - Subtext through action:
 - Style DNA fit:
@@ -89,6 +118,8 @@ NNN-NNN
 - Characters:
 - World:
 - Objects:
+- Object/mechanism ledger:
+- Payoff ledger:
 
 ## Foreshadowing Ledger
 - Newly planted:
@@ -105,9 +136,16 @@ NNN-NNN
 ## Reader Experience Scan
 - Important characters with clear impressions:
 - Characters still blurry:
+- Important appearances/current states rendered or missed:
+- POV immersion / interiority:
+- Camera-only or report-like passages:
 - World/background facts visible through action:
 - Chapters that feel procedural or flat:
+- Professional terms that caused reading friction:
+- Work/career scenes that overtake people/relationship/story:
 - Missing mini-climax / reversal before next batch:
+- Reward/payoff rhythm:
+- Relationship heat/intimacy rhythm, if enabled:
 
 ## Style Scan
 - Style DNA drift:

@@ -45,12 +45,42 @@ For every major character introduced in the opening movement, design a compact e
 
 Use physical description sparingly but specifically. Avoid generic labels such as "calm", "cold", "beautiful", or "smart" without a visible behavior that proves it.
 
+## New Character Entrance Protocol
+
+Any named or recurring new character needs a minimum entrance, even if they are not yet a major character. The reader should not have to infer from context alone why this person suddenly exists.
+
+For each new character, provide at least four anchors near first appearance:
+
+```markdown
+## New Character Entrance Minimum
+- Identity anchor: name, role, social position, job, faction, relation, or immediate function in the scene
+- Visual/physical anchor: face, build, clothing, age impression, posture, voice, object, injury, scent, or movement
+- Context anchor: why this person is here now and how they connect to the current conflict
+- POV/social reading: how the viewpoint character or nearby people understand, misread, fear, respect, desire, resent, or dismiss them
+- Behavioral hook: one action, habit, line, choice, or pressure response that makes them more than a label
+```
+
+For first-person narration, the introduction should be filtered through the narrator's bias, memory, attraction, disgust, envy, class sense, fear, or prior knowledge. The narrator may be wrong, but the reader still needs a usable first impression.
+
+For third-person narration, avoid dropping names into a neutral camera view. Use close POV perception, social reaction, or scene pressure to establish who the person is.
+
+For walk-on or one-scene functional characters, use a compressed version:
+
+```text
+role + one visual/behavioral detail + immediate relevance
+```
+
+Example pattern: "The night-shift clerk, a hollow-eyed man with a security badge clipped crookedly to his collar, stopped smiling when he saw the file number."
+
+Do not introduce multiple new names in a row without differentiating anchors. If three or more new characters enter together, stage them by hierarchy, relationship, or action so the reader can sort them.
+
 Good character entrance patterns:
 - show the character making a costly choice
 - show the character lying to someone who trusts them
 - show the character refusing an easy solution
 - show how others react to the character
 - give the character a pressure habit or object that can recur
+- connect the character's first appearance to an immediate scene pressure, not a neutral roll call
 
 ## Worldbuilding Through Action
 

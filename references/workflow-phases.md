@@ -58,7 +58,11 @@ Architecture must include:
 - protagonist craft chain: Ghost / Lie / Flaw / Want / Need / Truth / Arc
 - protagonist first-impression design: exterior signal, behavioral signature, emotional contradiction, opening wound, and reader hook
 - major character entrance cards for the opening movement: what the reader should remember after each first appearance
+- appearance/state system for important characters: durable anchors, current presentation overlays, side-view impressions, and update triggers
 - character arc budget: where false change, regression, crisis choice, and irreversible change should occur
+- relationship and heat/intimacy curves when relationship pleasure is part of the reader contract, using `intimacy-craft.md` for boundary, heat ladder, scene function, explicitness, choreography, and aftermath
+- object/mechanism continuity plan for important weapons, clues, systems, artifacts, resources, contracts, and recurring opportunities
+- reward/payoff ladder for webnovel or commercial genre projects: payoff frequency, variety, setup, consequence, and escalation
 - antagonist or opposing force
 - rules of world, power, technology, society
 - world reveal layers: surface rules, operating logic, bottom truth
@@ -68,6 +72,8 @@ Architecture must include:
 - dual-track pacing plan: external plot intensity and internal emotional intensity by arc
 - prose style discovery result: comparable reference matrix, selected Style DNA, scene style modes, and anti-style rules
 - prose style contract: style must be original, not imitation of a named living author
+- narrative distance and interiority contract: POV mode, default distance, interior density, inner monologue mode, when to zoom in, and forbidden detached/report habits
+- professional-detail budget for career/work/industry scenes: term density, exposition tolerance, plain-consequence rule, and what to compress or omit
 
 If the user has not supplied a clear prose style, run `style-discovery.md` before finalizing architecture. For market-facing webnovels, feed it the comparable matrix and platform rhythm from `research/market-research.md`. Give the user 2-3 style candidates or a recommended blend, then lock the selected direction into `bible/style-bible.md`.
 
@@ -91,10 +97,18 @@ Directory format:
 - Required beats:
 - Dramatic action:
 - Value shift:
+- POV/interior turn:
+- New character entrances:
 - Character impression:
+- Appearance/current-state impression:
 - World/context exposure:
+- Professional detail budget:
 - Stage conflict / reversal:
 - Character changes:
+- Relationship/heat movement:
+- Intimacy scene function/boundary, if relevant:
+- Object/mechanism continuity:
+- Reward/payoff:
 - Foreshadowing:
 - Payoffs:
 - New facts to ledger:

@@ -65,7 +65,9 @@ bible/character-bible.md          character cards
 bible/relationship-map.md         trust, tension, attraction, rivalry, dependency
 bible/faction-map.md              organizations, institutions, power blocs
 bible/mechanism-map.md            system/magic/law/investigation/social rules as needed
+bible/object-mechanism-ledger.md  weapons, artifacts, clues, systems, abilities, resources, contracts
 bible/foreshadowing-ledger.md     clues, promises, reveals, payoffs
+bible/payoff-ledger.md            reward/payoff rhythm, setup, delivery, consequence, escalation
 summaries/chapter-facts.md        chapter-level truth after generation
 ```
 
@@ -75,6 +77,7 @@ Genre-specific additions:
 - Romance/relationship-led: relationship stage map and emotional beat outline.
 - Political/faction-led: faction leverage map and public/private position tracker.
 - Slice-of-life/literary: interior arc map, social pressure map, motif/sensory palette.
+- Commercial/webnovel: payoff ladder and chapter/batch reward rhythm.
 
 ## Character Cards
 
@@ -105,6 +108,9 @@ Detailed appearance:
   Clothing / styling:
   Distinctive marks / objects:
   Sensory anchors:
+  Current presentation / state:
+Entrance impression:
+Side-view impressions:
 Signature behavior:
 Voice / speech pattern:
 Key relationships:
@@ -120,7 +126,37 @@ Next test:
 
 Use cards during generation. A character card is not just a reference; it should shape what the character notices, chooses, hides, refuses, and risks. Update it after major events so later chapters reflect changed trust, injuries, status, beliefs, appearance, resources, and emotional residue.
 
-Appearance should be specific but not static. Track durable anchors, then let stress, injury, wealth, travel, disguise, grief, confidence, or status changes alter presentation over time. Avoid repeatedly describing a character with one generic adjective.
+Appearance should be specific but not static. Track durable anchors, then let stress, injury, wealth, travel, disguise, grief, confidence, intimacy, battle damage, or status changes alter presentation over time. Important entrances should include a memorable visual/behavioral/social impression and, when useful, a side-view reaction from another character. Avoid repeatedly describing a character with one generic adjective.
+
+## Character Appearance / Entrance Module
+
+Use for all important characters and for scenes where the reader needs a strong first or renewed impression.
+
+For every named or recurring new character, even before they become important, include a minimum entrance:
+
+```text
+Identity anchor: name, role, social position, faction, job, relationship, or immediate scene function
+Visual/physical anchor: face, build, clothing, age impression, posture, voice, object, injury, scent, or movement
+Context anchor: why this person appears here and now
+POV/social reading: how the POV or nearby people interpret, misread, fear, respect, desire, resent, or dismiss them
+Behavioral hook: one action, line, habit, choice, or pressure response
+```
+
+For first-person POV, filter the entrance through the narrator's bias and history. For third-person POV, use close perception, social reaction, or scene pressure. Do not drop a new name into the scene without role, image, and relevance.
+
+Design:
+
+```text
+Durable appearance anchors:
+Default clothing/styling:
+Current state overlay: injury / fatigue / disguise / battle damage / formal wear / poverty / wealth / authority / intimacy
+Entrance action: what the character is doing when first seen
+POV filter: desire, fear, class bias, rivalry, attraction, resentment, awe, or suspicion
+Side-view impression: how an observer reads the person before knowing the truth
+Description limit: what not to repeat every appearance
+```
+
+Generation rule: describe appearance through action, social reaction, sensory anchors, and current state. Do not pause the story for a static catalog unless the genre intentionally wants a lavish entrance.
 
 ## Relationship Map
 
@@ -131,10 +167,16 @@ Pair / group:
 Current trust level:
 Surface relationship:
 Private truth:
+Attraction / repulsion:
+Power balance:
 What A wants from B:
 What B wants from A:
+Boundary:
+Secret / misunderstanding:
 Unresolved tension:
 Recent change:
+Interaction frequency target:
+Heat/intimacy stage:
 Next pressure test:
 Possible deepening:
 Possible rupture:
@@ -241,7 +283,12 @@ Core promise:
 Protagonist growth loop:
 Crisis type mix:
 Key relationship movement:
+Heat/intimacy movement, if enabled:
+POV/interiority target:
 Core mechanism reveal/upgrade/cost:
+Object/weapon/system continuity needs:
+Professional-detail budget:
+Reward/payoff mix:
 Faction/world pressure:
 Action/investigation/emotion set piece:
 Consequence to carry forward:
@@ -249,7 +296,7 @@ Hook variety:
 Exit standard:
 ```
 
-The card should be short, but generation and audit must honor it. When drafting chapters, deliberately write scenes that fulfill the card: put the crisis on-page, dramatize the relationship movement, reveal or stress the mechanism, and leave the planned consequence.
+The card should be short, but generation and audit must honor it. When drafting chapters, deliberately write scenes that fulfill the card: put the crisis on-page, dramatize the relationship movement, reveal or stress the mechanism, deliver the planned reward, and leave the planned consequence.
 
 ## Generation Use
 
@@ -389,7 +436,86 @@ Relationship redefined
 
 Progress through action, withheld words, misread motives, changed decisions, and shared consequences. Do not rely only on direct confession or exposition.
 
-For romance, avoid treating a character as a reward. Each party needs private desire, fear, agency, and the right not to forgive immediately.
+For romance, avoid treating a character as a reward. Each party needs private desire, fear, agency, boundaries, appetite, hesitation, and the right not to forgive immediately.
+
+When romance, marriage, harem/multi-heroine, desire, or intimate attraction is part of the reader contract, also track a heat/intimacy curve:
+
+```text
+Look / notice
+Friction / banter
+Protective or possessive impulse
+Voluntary proximity
+Touch with plausible excuse
+Private vulnerability
+Jealousy or fear of loss
+Open desire
+Boundary negotiation
+Intimacy / fade-to-black / explicit scene according to user boundary
+Aftermath: tenderness, awkwardness, leverage, guilt, trust, danger, commitment, rupture
+```
+
+Use heat as scene pressure, not decoration. A charged scene should change behavior afterward: more trust, more fear, a new secret, altered power, public risk, emotional dependence, or a harder choice.
+
+## Object / Mechanism Continuity Module
+
+Use for important props, clues, weapons, artifacts, resources, titles, contracts, systems, abilities, opportunities, and recurring mechanisms.
+
+Track each item:
+
+```text
+ID:
+Name:
+Type:
+Owner / controller:
+Location:
+Current state:
+Known rule:
+Unknown deeper rule:
+Cost / limit:
+Failure mode:
+Enemy counter:
+Upgrade / transformation path:
+Last on-page use:
+Next planned pressure:
+Payoff / retirement target:
+```
+
+Rules:
+- If the story highlights an object or mechanism as important, it must return with payoff, loss, transformation, upgrade, or deliberate retirement.
+- Let early advantages become later liabilities, counters, temptations, or costs.
+- Weapons and systems should develop usage style, limits, emotional meaning, and enemy responses over time.
+- Clues and contracts should keep chain-of-custody and interpretation state, not just appear when convenient.
+
+## Reward / Payoff Ladder Module
+
+Use for commercial genre fiction, webnovels, progression, revenge, romance-forward, system, face-slap, career, faction, and other satisfaction-driven projects.
+
+Before each arc or batch, design a payoff mix:
+
+```text
+Baseline frequency:
+Major payoff chapters:
+Minor payoff chapters:
+Reward types to use:
+Reward types to avoid repeating:
+Setup required:
+Witness/public reaction:
+Cost/consequence:
+Next escalation:
+```
+
+Common payoff types:
+- competence proof
+- public correction / face-slap
+- upgrade, skill, rank, title, resource, money, territory, access
+- weapon/artifact/system feature reveal
+- clue reveal or identity reversal
+- rescue, revenge, protection, survival, escape
+- romantic heat, intimacy, tenderness, jealousy, commitment, relationship redefinition
+- faction gain, ally gain, reputation gain, enemy exposure
+- emotional catharsis, dignity recovery, being seen correctly
+
+Payoff design rule: vary the reader reward. A batch that only repeats "enemy mocks -> protagonist wins" will feel shallow even if every scene is technically exciting. Escalate depth by changing who witnesses, what it costs, what new door opens, and what emotional or strategic consequence remains.
 
 ## Character Interior Pass
 
@@ -400,8 +526,41 @@ Major characters should not exist only as plot functions. In important scenes, c
 - What line will they not cross?
 - What choice costs them something?
 - What detail, gesture, or speech pattern belongs only to them?
+- What does the scene feel like from inside their body or private logic?
+- What thought do they suppress, misread, or leave unfinished?
 
 If a supporting character only confirms the protagonist's correctness, repair or reduce the scene.
+
+## Immersion / Interiority Module
+
+Use when prose feels camera-only, detached, report-like, or insufficiently immersive.
+
+Each important scene should include:
+- POV selection: what this character notices because of desire, fear, pride, shame, attraction, resentment, or expertise.
+- Body-mind signal: breath, heat, numbness, pulse, posture, delayed pain, nausea, stillness, or a repeated gesture.
+- Private interpretation: what the POV thinks another person means, whether right or wrong.
+- Suppressed thought: what the POV refuses to say, admit, or finish thinking.
+- Interior turn: how the character's private state changes by the scene end.
+
+Do not make every paragraph interior monologue. The target is rhythm: external event -> inner pressure -> action/choice -> consequence -> aftershock.
+
+## Professional Detail / Jargon Control Module
+
+Use for career, workplace, officialdom, business, entertainment, legal, gaming, medicine, military, academic, or any industry-heavy arc.
+
+Professional detail should pass at least one test:
+- It changes leverage, access, money, status, safety, reputation, intimacy, trust, or public pressure.
+- It reveals character competence under pressure.
+- It creates a choice, cost, humiliation, reward, betrayal, or relationship turn.
+- It is necessary for the reader to understand a payoff.
+
+Prefer plain consequences over expert explanation. Avoid stacking proper nouns, processes, acronyms, metrics, titles, departments, tools, legal terms, or industry references unless the scene's pleasure is specifically competence, deduction, or strategy.
+
+Default webnovel/commercial budget:
+- 0-2 new technical terms per chapter unless this is a planned strategy set piece.
+- No more than one compact professional explanation block.
+- Every technical term needs an immediate plain consequence or emotional reaction.
+- Career/work scenes should be anchored to relationship, rivalry, status, public pressure, reward, or moral cost.
 
 ## Faction / Institution Map
 
@@ -463,6 +622,9 @@ P0: must rewrite before continuing.
 - Major character behavior contradicts established motivation without cause.
 - Batch has no meaningful tension or change.
 - Genre promise is violated.
+- Important object, weapon, system, clue, or opportunity disappears without payoff, loss, transformation, or deliberate retirement.
+- Required romance/intimacy/relationship promise is absent across the batch.
+- Payoff rhythm is too thin for the declared webnovel/commercial reader contract.
 
 P1: must repair before finalizing.
 - Crisis pattern is repetitive.
@@ -471,6 +633,9 @@ P1: must repair before finalizing.
 - Major win has no consequence.
 - Important reveal lacks setup.
 - Relationship shift is told but not dramatized.
+- Major entrance lacks any memorable appearance, behavior, or side-view impression.
+- Reward type repeats without escalation, cost, or new emotional/strategic consequence.
+- Intimate or charged relationship scene does not change character behavior, trust, leverage, vulnerability, or future stakes.
 
 P2: polish if time allows.
 - Scene atmosphere is thin.

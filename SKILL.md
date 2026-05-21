@@ -22,13 +22,13 @@ Phase 1  Market positioning + optional research: channel, reader contract, comme
    v [Checkpoint Positioning when market direction is uncertain]
 Phase 2  Architecture: premise, genre promise, theme, dramatic question, volumes, arcs, cast, world, style discovery, adaptive craft modules
    v [Checkpoint Architecture]
-Phase 3  Design bible: character cards, relationship map, faction/institution map, mechanism map, mystery/foreshadowing plan, emotional and growth curves
+Phase 3  Design bible: character cards, appearance/entrance plans, relationship map, faction/institution map, object/mechanism map, payoff ladder, mystery/foreshadowing plan, emotional and growth curves
    v [Checkpoint Design Bible]
 Phase 4  Directory: volume map + chapter directory + batch plan
    v [Checkpoint Directory]
 Phase 5  Anchor chapters: chapter 1 + one opening-movement engagement chapter + one mid-arc risk chapter
    v [Hard node: user approves voice/quality]
-Phase 6  Batch design card: genre focus, crisis mix, growth loop, relationship/setting/mechanism needs
+Phase 6  Batch design card: genre focus, crisis mix, growth loop, relationship/heat movement, immersion/interiority needs, setting/mechanism/object needs, professional-detail budget, reward/payoff mix
 Phase 7  Batch generation: write to the design card, not just to the previous chapter
 Phase 8  Batch audit: continuity, reader experience, growth, crisis, mechanism clarity, character, foreshadowing, style, repetition
 Phase 9  Repair/polish until audit exit standard is met
@@ -84,23 +84,32 @@ novel-project/
 18. Arc wins must leave consequences. Track injuries, tool/resource costs, relationship shifts, reputation changes, political reactions, psychological residue, unresolved evidence, or newly opened threats.
 19. Apply adaptive quality during planning, not only audit. Character cards, relationship maps, faction maps, mechanism maps, mystery/foreshadowing plans, emotional curves, growth curves, and volume outlines should encode the enabled modules before chapters are drafted.
 20. During generation, write toward the planned craft targets. Do not wait for audit to add growth, emotion, clue logic, action specificity, faction pressure, or mechanism clarity. Audit is a guardrail and repair loop, not the first place craft appears.
-21. For every important character, maintain a character dossier with role, personality, stance/allegiance, desire, fear/wound, false belief, agency, detailed appearance, signature behavior/voice, key relationships, in-story changes, arc movement, current status, and current cost. Use these cards while drafting scenes and update them after major events.
-22. For every important relationship, maintain a relationship-state line: current trust level, unresolved tension, what each side wants from the other, what changed recently, and what would test or deepen the bond.
-23. For every major organization or institution, maintain a faction/institution card with wants, fears, resources, debts, secrets, internal divisions, public/private positions, leverage, and vulnerability.
-24. For mystery, conspiracy, hidden-history, or mechanism-heavy stories, design clue/reveal curves before drafting: question, clue, misread, contradiction, partial reveal, cost of knowing, and later payoff.
-25. When market direction matters, run dynamic webnovel market research before architecture. Use public official platform pages, rankings, category/tag pages, book detail pages, public reviews, and user-provided examples to build a source-cited market research packet. Do not scrape locked content, reproduce long excerpts, or copy plot/prose; convert findings into original positioning, reader contract, trope engine, character design, and style constraints.
-26. For webnovel projects, use baseline market positioning knowledge even without browsing: male-channel/female-channel/cross-channel reader contracts, payoff rhythm, first-three-chapter promise, long-serial engine, protagonist/team/relationship design, and trope engines such as comeback, rise-to-the-top, face-slap, rebirth, transmigration, system, faction expansion, identity reversal, and relationship pull. Treat these as market patterns, not rigid formulas.
+21. For every important character, maintain a character dossier with role, personality, stance/allegiance, desire, fear/wound, false belief, agency, detailed appearance, entrance impression, side-view impressions from others, signature behavior/voice, key relationships, in-story changes, arc movement, current status, and current cost. Use these cards while drafting scenes and update them after major events.
+22. Character appearance is a continuity surface, not disposable decoration. Track durable appearance anchors plus current presentation: clothing, disguise, injury, fatigue, battle damage, wealth/status display, ritual/court/workplace styling, emotional state, and how other characters read the person at first sight. Important entrances should leave a memorable visual/behavioral/social impression when the genre and POV allow it.
+23. Every named or recurring new character needs a minimum entrance on first appearance: identity/role anchor, visual or physical anchor, context/relevance anchor, POV or social reading, and one behavioral hook. For first-person narration, filter this through narrator bias or memory. For third-person narration, use close perception, social reaction, or scene pressure. Do not drop unexplained names into a scene.
+24. For every important relationship, maintain a relationship-state line: current trust level, attraction/repulsion, unresolved tension, what each side wants from the other, boundary, secret, recent change, next pressure test, and what would deepen or rupture the bond.
+25. If romance, harem/multi-heroine, marriage, desire, or intimate relationship is part of the reader contract, use `references/intimacy-craft.md` and maintain a relationship heat/intimacy curve. Track interaction frequency, flirtation/subtext, jealousy/protectiveness, restraint, touch/proximity, private vulnerability, conflict, repair, consent/boundaries, explicitness level, scene function, physical choreography, sensory palette, emotional turn, and aftermath. Intimacy scenes must move character, leverage, trust, power, or emotional stakes; do not add them as detachable filler or rewards.
+26. For every important object, clue, weapon, artifact, resource, contract, title, system feature, ability, or recurring opportunity, maintain an object/mechanism ledger with owner, location, state, known rule, cost, limitation, upgrade path, last use, next planned pressure, and payoff target. Do not let early important mechanisms, opportunities, weapons, or props disappear without payoff, loss, transformation, or deliberate retirement.
+27. For commercial genre fiction and webnovels, design a reward/payoff ladder before drafting. Track the recurring reader rewards by chapter and batch: competence proof, face-slap/public correction, upgrade, resource gain, identity reveal, status gain, rescue, revenge, intimacy/relationship heat, mystery reveal, faction expansion, freedom, territory, wealth, recognition, or emotional catharsis. Rotate payoff types, escalate depth, and preserve consequences so the pleasure does not become one-note.
+28. Use `references/immersion-and-jargon-control.md` when prose feels too detached, camera-only, report-like, industry-heavy, or terminology-heavy. Define narrative distance, interior density, and professional-detail budget in the style bible. Important scenes should have POV selection, inner pressure, body-mind reaction, subtext, and an interior turn, not only external event narration.
+29. Professional, career, workplace, business, legal, entertainment, gaming, academic, or other industry content must serve story pressure. Use only the terms needed for conflict, leverage, status, money, public reaction, relationship movement, payoff, or emotional cost. Prefer plain consequences over expert explanation. Reduce workline/process pages unless the user explicitly asks for workplace procedural fiction.
+30. For every major organization or institution, maintain a faction/institution card with wants, fears, resources, debts, secrets, internal divisions, public/private positions, leverage, and vulnerability.
+31. For mystery, conspiracy, hidden-history, or mechanism-heavy stories, design clue/reveal curves before drafting: question, clue, misread, contradiction, partial reveal, cost of knowing, and later payoff.
+32. When market direction matters, run dynamic webnovel market research before architecture. Use public official platform pages, rankings, category/tag pages, book detail pages, public reviews, and user-provided examples to build a source-cited market research packet. Do not scrape locked content, reproduce long excerpts, or copy plot/prose; convert findings into original positioning, reader contract, trope engine, character design, and style constraints.
+33. For webnovel projects, use baseline market positioning knowledge even without browsing: male-channel/female-channel/cross-channel reader contracts, payoff rhythm, first-three-chapter promise, long-serial engine, protagonist/team/relationship design, and trope engines such as comeback, rise-to-the-top, face-slap, rebirth, transmigration, system, faction expansion, identity reversal, and relationship pull. Treat these as market patterns, not rigid formulas.
 
 ## What To Read When
 
 - `references/workflow-phases.md`: phase-by-phase outputs and checkpoints.
 - `references/webnovel-market-positioning.md`: baseline webnovel industry knowledge for male-channel/female-channel/cross-channel positioning, reader contracts, trope libraries, protagonist/team/relationship design, first-three-chapter hooks, long-serialization engines, and benchmark usage.
 - `references/webnovel-market-research.md`: dynamic public-source research for platform/category signals, male-channel/female-channel reader contracts, comparable matrices, topic selection cards, and market-informed planning.
-- `references/bible-and-ledgers.md`: memory architecture that fixes long-novel drift.
+- `references/bible-and-ledgers.md`: memory architecture that fixes long-novel drift, including character appearance, relationship heat, object/mechanism continuity, and payoff ledgers.
 - `references/chapter-production.md`: anchor chapters, batch size, chapter prompt assembly, finalization.
 - `references/audit-protocol.md`: P0/P1/P2 audit rules and repair policy.
 - `references/reader-experience.md`: opening attachment, character impression, worldbuilding exposure, pacing curve, early conflict/reversal checks.
-- `references/genre-adaptive-quality.md`: genre-adaptive planning and generation, character/relationship/faction/mechanism design, module selection, reader-experience audits, growth loops, crisis rotation, mechanism clarity, combat/mystery/relationship/faction modules, and P0/P1/P2 quality gates.
+- `references/genre-adaptive-quality.md`: genre-adaptive planning and generation, character/appearance/relationship/faction/mechanism/payoff design, module selection, reader-experience audits, growth loops, crisis rotation, mechanism clarity, combat/mystery/relationship/faction/reward modules, and P0/P1/P2 quality gates.
+- `references/intimacy-craft.md`: intimate relationship planning and writing: boundaries, heat ladder, scene functions, physical choreography, consent, explicitness levels, aftermath, and audit gates.
+- `references/immersion-and-jargon-control.md`: narrative distance, interiority, close POV, professional-detail budget, jargon translation, and career/workline compression.
 - `references/screenwriting-craft.md`: screenwriting-inspired craft layer: dramatic action, Ghost/Lie/Flaw/Want/Need, value shifts, dual-track pacing, world reveal layers, and script-doctor checks.
 - `references/style-discovery.md`: prose style discovery for users who cannot name a style; comparable reference scouting, Style DNA, scene style modes, style trials, and style audits.
 - `references/longtask-autoresume.md`: resumable state file and agentic loop.
@@ -117,7 +126,7 @@ When the user only says "write/generate a long novel":
 
 When the user already has a bible/directory:
 1. Import it into `bible/` and `plan/`.
-2. Audit for missing memory ledgers plus missing character cards, relationship map, faction/institution map, mechanism map, and genre-specific clue/action/emotional curve plans.
+2. Audit for missing memory ledgers plus missing character cards, appearance/entrance plans, relationship and intimacy/heat maps, faction/institution map, object/mechanism map, payoff ladder, and genre-specific clue/action/emotional curve plans.
 3. Start with anchor chapter(s), then batch generation.
 
 When the user asks to continue an existing project:

@@ -83,8 +83,11 @@ Translate reference learning into original control parameters:
 ```markdown
 - Prose position: market-facing / literary-leaning / cinematic / web-serial / hybrid
 - Narrative distance: close / medium / cool observer / shifting POV
+- Interior density: low / medium / high
+- Interior mode: direct thought / free indirect style / bodily reaction / memory shard / suppressed thought
 - Sentence rhythm: terse / balanced / flowing / fragmented / variable by scene
 - Information density: low / medium / high
+- Professional/jargon density: low / medium / high
 - Sensory density: low / medium / high
 - Emotional temperature: cold / restrained / warm / feverish
 - Metaphor strategy: sparse / object-based / poetic / ironic / none
@@ -94,6 +97,7 @@ Translate reference learning into original control parameters:
 - Platform rhythm: fast-hook web-serial / immersive long-scene / short-chapter punch / slow-burn emotional / literary
 - Payoff density: low / medium / high
 - Exposition tolerance: low / medium / high
+- Professional exposition tolerance: low / medium / high
 - Forbidden habits: over-explanation, abstract theme statements, generic AI eloquence, repeated paragraph shape
 ```
 
@@ -117,6 +121,21 @@ Most novels need more than one prose mode. Define modes in `style-bible.md`:
 - Sentence rhythm:
 - Sensory focus:
 - Interior/exterior balance:
+- Interior beat types:
+- Avoid:
+
+### Relationship / Intimacy
+- Narrative distance:
+- Interior pressure:
+- Body-mind detail:
+- Subtext:
+- Avoid:
+
+### Career / Workline
+- Professional detail budget:
+- Jargon handling:
+- Plain consequence rule:
+- Relationship/emotional anchor:
 - Avoid:
 
 ### World Reveal
@@ -145,6 +164,8 @@ After the user likes a trial passage, save it or summarize it in `bible/style-bi
 - Description style:
 - Dialogue style:
 - Emotional handling:
+- Interior handling:
+- Professional/jargon handling:
 
 ## Anti Sample Notes
 - What to avoid:
