@@ -14,3 +14,8 @@ test-novel-project/
 .env.*
 .vscode/
 .idea/
+
+# Local-only reference snippets (copyrighted excerpts, personal notes).
+# Never push upstream — these may contain third-party text used for
+# study/diagnosis, not redistribution.
+references-pack/_local/
