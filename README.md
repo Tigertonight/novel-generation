@@ -27,7 +27,11 @@ novel-generation/
 │   ├── audit-protocol.md
 │   ├── bible-and-ledgers.md
 │   ├── chapter-production.md
+│   ├── character-entrance-craft.md
 │   ├── genre-adaptive-quality.md
+│   ├── hard-rules.md
+│   ├── immersion-and-jargon-control.md
+│   ├── intimacy-craft.md
 │   ├── longtask-autoresume.md
 │   ├── reader-experience.md
 │   ├── screenwriting-craft.md

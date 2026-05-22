@@ -2,13 +2,31 @@
 
 Audit before calling a chapter or batch finalized.
 
+> **Run `references/hard-rules.md` audit snapshot first.** Any P0 from hard-rules.md is also P0 here. The list below extends those rules with continuity-and-style P0/P1 items.
+
 ## Severity
 
 P0 - Must Fix
-: Contradicts canon, breaks timeline, changes character knowledge impossibly, pays off unplanted key twist, loses required chapter beat, violates user taboo, makes future plan impossible, drops an important object/mechanism without planned payoff/loss/retirement, or fails a required romance/intimacy/payoff promise across a batch.
+: Contradicts canon, breaks timeline, changes character knowledge impossibly, pays off unplanted key twist, loses required chapter beat, violates user taboo, makes future plan impossible, drops an important object/mechanism without planned payoff/loss/retirement, fails a required romance/intimacy/payoff promise across a batch, **or any hard-rules.md P0**:
+  - new named/recurring character enters with fewer than 4/5 entrance anchors
+  - key emotional scene has near-zero interiority
+  - intimate scene lacks boundary, consequence, or relationship-state change; or treats coercion as reward
+  - twice-emphasized mechanism vanishes for 8+ chapters with no retirement
+  - commercial project goes 3 chapters with no effective payoff, or any 5-10 chapter batch is >60% one payoff type
+  - career line / jargon eats >50% of a chapter in non-workplace projects, or 2+ consecutive chapters are mostly process
+  - important relationship goes 5+ chapters with no state-line change in a project that promised romance
+  - chapter packet missing POV / value shift / interior goal / new-character anchors / payoff design
+  - same ability used 5+ times without cost or enemy counter
 
 P1 - Should Fix
-: Weak motivation, thin character impression, invisible world/background, flat pacing, missing dramatic action, missing value shift, style drift from Style DNA, generic AI prose, repeated scene pattern, unclear geography, chapter too short/long, foreshadowing vague, continuity likely to confuse readers.
+: Weak motivation, thin character impression, invisible world/background, flat pacing, missing dramatic action, missing value shift, style drift from Style DNA, generic AI prose, repeated scene pattern, unclear geography, chapter too short/long, foreshadowing vague, continuity likely to confuse readers, **plus hard-rules.md P1** (3 consecutive P1 of the same type escalates to P0):
+  - important character described 2+ chapters with only generic words
+  - camera-only passage exceeds ~600 zh-chars / ~400 en-words
+  - important relationship appears in scene but isn't tested/deepened/complicated/clarified
+  - single ability use without cost or counter
+  - payoff without setup or without consequence
+  - jargon term not translated into consequence or conflict
+  - intimate scene swappable to any other pair (no character-specific desire)
 
 P2 - Note
 : Preference-level prose polish, optional tightening, future opportunity.
@@ -36,16 +54,20 @@ Pass / Needs repair
 - Motivation:
 - First impression / memorability:
 - New character entrance clarity:
+- New character 5-anchor check (identity / visual / scene-relevance / POV reading / behavioral hook — at least 4/5):
 - Identity/role/context anchor for new characters:
 - Exterior or behavioral specificity:
 - Appearance/current-state specificity:
+- Generic-word red flags (漂亮/冷峻/高大/儒雅/危险/气场 stacked without specifics):
 - Side-view impression, if entrance matters:
 - POV/interiority specificity:
 - Interior reaction after major external beats:
+- Interior beat types present (instinct / suppressed / body-mind / memory / misread / desire-fear / self-deception / aftertaste):
 - Ghost / Lie / Flaw pressure:
 - Want / Need tension:
-- Relationship changes:
+- Relationship changes — was the relationship tested/deepened/complicated/clarified?:
 - Heat/intimacy movement, if enabled:
+- Heat ladder position before/after:
 - Voice consistency:
 
 ## World And Background
@@ -66,8 +88,20 @@ Pass / Needs repair
 - Setup honored:
 - Payoff delivered or deliberately delayed:
 - Payoff type:
+- Setup chapters (where the buildup was planted):
 - Cost / consequence:
-- Variety vs previous chapters:
+- Variety vs previous chapters (no >60% same-type within batch):
+- Next escalation direction:
+
+## Mechanism / Object Use
+- Items/systems used this chapter:
+- For each: when/why available, cost paid, why not infinite, enemy counter or response, what protagonist learned:
+- Items emphasized earlier but absent now (chapters since last appearance):
+
+## Career / Jargon Compression
+- Career-or-process share of chapter (% of word count):
+- Each new technical term + its plain-language consequence:
+- Career beat binding (relationship / rivalry / status / public pressure / money / humiliation / moral choice / payoff):
 
 ## Intimacy / Heat, If Enabled
 - Explicitness boundary honored:

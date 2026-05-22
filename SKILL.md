@@ -28,9 +28,9 @@ Phase 4  Directory: volume map + chapter directory + batch plan
    v [Checkpoint Directory]
 Phase 5  Anchor chapters: chapter 1 + one opening-movement engagement chapter + one mid-arc risk chapter
    v [Hard node: user approves voice/quality]
-Phase 6  Batch design card: genre focus, crisis mix, growth loop, relationship/heat movement, immersion/interiority needs, setting/mechanism/object needs, professional-detail budget, reward/payoff mix
-Phase 7  Batch generation: write to the design card, not just to the previous chapter
-Phase 8  Batch audit: continuity, reader experience, growth, crisis, mechanism clarity, character, foreshadowing, style, repetition
+Phase 6  Batch design card: genre focus, crisis mix, growth loop, relationship/heat movement, immersion/interiority needs, setting/mechanism/object needs, professional-detail budget, reward/payoff mix [must satisfy hard-rules.md]
+Phase 7  Batch generation: write to the design card, not just to the previous chapter [must satisfy hard-rules.md]
+Phase 8  Batch audit: continuity, reader experience, growth, crisis, mechanism clarity, character, foreshadowing, style, repetition [run hard-rules.md audit snapshot]
 Phase 9  Repair/polish until audit exit standard is met
 Phase 10 Ledger updates + directory micro-adjustment
 Phase 11 Repeat Phase 6-10 until complete
@@ -64,6 +64,7 @@ novel-project/
 
 ## Hard Rules
 
+0. **Read `references/hard-rules.md` before every chapter packet, every chapter draft, and every audit.** It contains nine non-negotiable craft rules (character entrance, interiority, intimacy mechanism, relationship progression, mechanism continuity, payoff design, jargon de-noise, chapter packet, audit standard) with explicit P0/P1 lines. The rules below in this section remain in force; `hard-rules.md` operationalizes them. When a rule in this section and `hard-rules.md` overlap, follow the stricter version.
 1. Bible and ledgers are the truth source. Do not invent major facts in chapter prompts without updating them.
 2. Always create or update `plan/generation-plan.md`; it is the task queue.
 3. Use strong models for `plan/architecture.md` and `plan/directory.md`; ask for or wait for user refinement at checkpoints.
@@ -100,6 +101,8 @@ novel-project/
 
 ## What To Read When
 
+- `references/hard-rules.md`: non-negotiable craft rules with P0/P1 escalation, copy-paste chapter packet template, and audit snapshot. **Read first** before any packet/draft/audit.
+- `references/character-entrance-craft.md`: detailed expansion of the 5-anchor minimum for every named or recurring character entrance, first-person vs third-person filtering, walk-on rules, re-appearance updates, and worked examples.
 - `references/workflow-phases.md`: phase-by-phase outputs and checkpoints.
 - `references/webnovel-market-positioning.md`: baseline webnovel industry knowledge for male-channel/female-channel/cross-channel positioning, reader contracts, trope libraries, protagonist/team/relationship design, first-three-chapter hooks, long-serialization engines, and benchmark usage.
 - `references/webnovel-market-research.md`: dynamic public-source research for platform/category signals, male-channel/female-channel reader contracts, comparable matrices, topic selection cards, and market-informed planning.
@@ -116,6 +119,8 @@ novel-project/
 - `references/ai-novelgenerator-notes.md`: design ideas adapted from the GitHub project and what this skill changes.
 
 ## Default Collaboration
+
+> Before any packet, draft, or audit: read `references/hard-rules.md`. Treat its P0 list as the minimum quality bar.
 
 When the user only says "write/generate a long novel":
 1. Ask for or infer premise, genre, target length, audience, tone, and taboo constraints.
