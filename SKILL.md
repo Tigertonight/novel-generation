@@ -7,6 +7,15 @@ description: Design, plan, generate, audit, and resume long-form novel projects 
 
 Build long-form novels as an auditable production system: bible first, directory second, chapters in 5-10 chapter batches, then review and ledger updates. Do not try to write an entire long novel in one prompt.
 
+This skill supports four working modes:
+
+1. **`new-novel`** — generate from premise (Phase 0-12 default workflow).
+2. **`existing-novel-optimize`** — improve existing prose without rewriting from zero. See `references/optimization-workflow.md`. Use multi-grain surgery (sentence / paragraph / scene / chapter) driven by `references/flatness-and-hook-diagnostics.md`.
+3. **`existing-novel-continue`** — author has partial draft, needs continuation. Reverse-engineer bible from existing text first, then use `new-novel` workflow for new chapters.
+4. **`style-trial`** — quick anchor-chapter test to discover voice without committing to a project.
+
+Mode detection signals are listed under "Default Collaboration".
+
 This skill is genre-adaptive. Do not force every novel to include combat, romance, mystery, faction politics, power progression, or heavy worldbuilding. First identify the story's genre promise and reader contract, then enable only the craft modules that help fulfill that contract.
 
 Design inheritance:
@@ -103,6 +112,9 @@ novel-project/
 
 - `references/hard-rules.md`: non-negotiable craft rules with P0/P1 escalation, copy-paste chapter packet template, and audit snapshot. **Read first** before any packet/draft/audit.
 - `references/character-entrance-craft.md`: detailed expansion of the 5-anchor minimum for every named or recurring character entrance, first-person vs third-person filtering, walk-on rules, re-appearance updates, and worked examples.
+- `references/flatness-and-hook-diagnostics.md`: translates vague reader complaints ("太平了"、"开头不抓人") into concrete diagnostic checklists across 6 flatness dimensions and 4 hook dimensions; produces a diagnostic report; recommends surgery grain. **Required reading for `existing-novel-optimize` mode and any audit that suspects pacing/flatness issues.**
+- `references/optimization-workflow.md`: workflow for improving existing prose. Multi-grain surgery (sentence/paragraph/scene/chapter), reverse-engineering bible from text, voice preservation. **Required reading for `existing-novel-optimize` mode.**
+- `references-pack/README.md`: curated original samples + technique breakdowns for openings, character entrances, interiority, and intimacy beats. Use as **structural references for studying technique, not as text to copy**. Read relevant samples when about to write a high-stakes opening, an important character entrance, or a key interiority/intimacy scene.
 - `references/workflow-phases.md`: phase-by-phase outputs and checkpoints.
 - `references/webnovel-market-positioning.md`: baseline webnovel industry knowledge for male-channel/female-channel/cross-channel positioning, reader contracts, trope libraries, protagonist/team/relationship design, first-three-chapter hooks, long-serialization engines, and benchmark usage.
 - `references/webnovel-market-research.md`: dynamic public-source research for platform/category signals, male-channel/female-channel reader contracts, comparable matrices, topic selection cards, and market-informed planning.
@@ -122,19 +134,47 @@ novel-project/
 
 > Before any packet, draft, or audit: read `references/hard-rules.md`. Treat its P0 list as the minimum quality bar.
 
+### Mode Detection
+
+Read user intent from these signals:
+
+- **`existing-novel-optimize` signals**: user provides existing chapter files / pasted prose; user says "帮我改"、"帮我优化"、"我已经写好了"、"读者反馈"、"读起来太平"、"开头不抓人"、"感情线塌"、"爽点弱"、"节奏拖"、any specific reader complaint about quality of existing text. → Go to `references/optimization-workflow.md`.
+- **`existing-novel-continue` signals**: user has partial draft, asks to continue / extend / write next chapter. → Reverse-engineer bible per `optimization-workflow.md` §2, then proceed with `new-novel` workflow for new chapters.
+- **`new-novel` signals**: user asks to "write/generate a novel", provides premise/seed only, no existing prose. → Default workflow below.
+- **`style-trial` signals**: user wants to "试一下风格", uncertain about voice, wants a sample before committing. → Run `references/style-discovery.md` style trial.
+
+When ambiguous, ask once which mode applies before proceeding.
+
+### `new-novel` Mode
+
 When the user only says "write/generate a long novel":
 1. Ask for or infer premise, genre, target length, audience, tone, and taboo constraints.
 2. Create project scaffold.
 3. If the project is market-facing or the direction is vague, use webnovel market positioning; when current platform signals matter, run webnovel market research and produce a positioning card before architecture.
 4. Produce architecture, design bible, and directory first.
 5. Stop for checkpoint review before chapters.
+6. **Before writing the first anchor chapter, read 1-2 relevant samples from `references-pack/openings/`** to study technique (not to copy).
 
-When the user already has a bible/directory:
-1. Import it into `bible/` and `plan/`.
+### `existing-novel-optimize` Mode
+
+When the user has existing prose and wants improvement:
+1. Identify intent grain (A polish / B targeted repair / C restructure / D extend) — see `optimization-workflow.md` §1.
+2. Reverse-engineer bible (style-bible first, then characters/relationships/objects) from existing text — see `optimization-workflow.md` §2.
+3. Run `flatness-and-hook-diagnostics.md` diagnostic on user-specified scope or full prose.
+4. Submit diagnostic report + recommended surgery grain; wait for user approval.
+5. Execute surgery at the matched grain; do voice-match self-check after each surgery.
+6. Update bible/ledger from confirmed changes.
+
+### `existing-novel-continue` Mode
+
+When the user has bible/directory or partial draft:
+1. Import existing material into `bible/` and `plan/`. If no bible exists, reverse-engineer per `optimization-workflow.md` §2.
 2. Audit for missing memory ledgers plus missing character cards, appearance/entrance plans, relationship and intimacy/heat maps, faction/institution map, object/mechanism map, payoff ladder, and genre-specific clue/action/emotional curve plans.
 3. Start with anchor chapter(s), then batch generation.
 
-When the user asks to continue an existing project:
+### Resume Mode
+
+When the user asks to continue an existing project (run by this skill before):
 1. Read `.codex-longtask/state.json`, `plan/generation-plan.md`, latest batch audit, and relevant ledgers.
 2. Resume from the next queued task.
 3. Do not restart from chapter 1 unless explicitly asked.

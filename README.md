@@ -2,7 +2,9 @@
 
 Codex skill for planning, generating, auditing, and resuming long-form novel projects with strong continuity.
 
-This skill treats a novel as an auditable production system:
+This skill supports four modes: `new-novel` (generate from premise), `existing-novel-optimize` (improve existing prose with multi-grain surgery), `existing-novel-continue` (extend partial draft), and `style-trial` (voice discovery).
+
+It treats a novel as an auditable production system:
 
 - story bible and ledgers as the source of truth
 - baseline webnovel market positioning for male-channel, female-channel, and cross-channel projects
@@ -28,17 +30,30 @@ novel-generation/
 │   ├── bible-and-ledgers.md
 │   ├── chapter-production.md
 │   ├── character-entrance-craft.md
+│   ├── flatness-and-hook-diagnostics.md
 │   ├── genre-adaptive-quality.md
 │   ├── hard-rules.md
 │   ├── immersion-and-jargon-control.md
 │   ├── intimacy-craft.md
 │   ├── longtask-autoresume.md
+│   ├── optimization-workflow.md
 │   ├── reader-experience.md
 │   ├── screenwriting-craft.md
 │   ├── style-discovery.md
 │   ├── webnovel-market-positioning.md
 │   ├── webnovel-market-research.md
 │   └── workflow-phases.md
+├── references-pack/
+│   ├── README.md
+│   ├── openings/
+│   │   ├── 01-modern-thriller.md
+│   │   └── 02-historical-court.md
+│   ├── entrances/
+│   │   └── 01-hostile-encounter.md
+│   ├── interiority/
+│   │   └── 01-suppressed-grief.md
+│   └── intimacy/
+│       └── 01-care-as-tension.md
 └── scripts/
     └── init_novel_project.py
 ```
