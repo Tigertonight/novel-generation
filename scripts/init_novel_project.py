@@ -19,8 +19,8 @@ FILES = {
     "bible/timeline-ledger.md": "# Timeline Ledger\n\n| Chapter | Time | Location | Event | Consequence |\n|---:|---|---|---|---|\n",
     "bible/foreshadowing-ledger.md": "# Foreshadowing Ledger\n\n| ID | Item | Plant chapter | Reinforce | Payoff target | Status | Notes |\n|---|---|---:|---|---|---|---|\n",
     "bible/continuity-ledger.md": "# Continuity Ledger\n\n## Canon Facts\n\n## Object States\n\n## Injuries And Limits\n\n## Promises And Oaths\n\n## Open Questions\n\n",
-    "bible/object-mechanism-ledger.md": "# Object / Mechanism Ledger\n\n| ID | Item / mechanism | Owner | Location | State | Rule / use | Cost / limit | Last used | Upgrade / change path | Payoff target | Status |\n|---|---|---|---|---|---|---|---|---|---|---|\n",
-    "bible/payoff-ledger.md": "# Payoff Ledger\n\n| Chapter | Payoff type | Setup source | On-page reward | Cost / consequence | Next escalation |\n|---:|---|---|---|---|---|\n",
+    "bible/object-mechanism-ledger.md": "# Object / Mechanism Ledger\n\n| ID | Item / mechanism | Owner | Location | State | Rule / use | Cost / limit | Failure mode | Enemy counter | Last used | Upgrade / change path | Payoff target | Status |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n",
+    "bible/payoff-ledger.md": "# Payoff Ledger\n\n| Chapter | Payoff type | Setup chapters | On-page reward | Witnesses | Cost / consequence | Variety vs last 3 chapters | Next escalation |\n|---:|---|---|---|---|---|---|---|\n",
     "plan/market-positioning.md": "# Market Positioning\n\n## Channel And Platform Fit\n- Channel: male-channel / female-channel / cross-channel / genre-first / literary / other\n- Platform style:\n- Target reader:\n\n## Reader Contract\n- Core pleasure:\n- Core anxiety:\n- First promise:\n- Long promise:\n- What must appear in the first 3 chapters:\n- What can be delayed:\n\n## Commercial Hook\n- One-line hook:\n- Title direction:\n- Blurb direction:\n- First-scene hook:\n- First-three-chapter hook:\n\n## Trope Engine\n- Main trope:\n- Support tropes:\n- Expected payoff rhythm:\n- Differentiation:\n- Saturation risk:\n- Anti-copycat rule:\n\n## Character Design Direction\n- Protagonist starting pressure:\n- Protagonist long arc:\n- Key supporting roles:\n- Relationship model:\n- Protagonist team / central couple / ensemble / multi-heroine / single-heroine / no-heroine choice:\n- Antagonist/opposition ladder:\n\n## Serial Engine\n- What can generate 100+ chapters:\n- What escalates by volume:\n- What stays emotionally unfinished:\n- What recurring reader reward can repeat without going stale:\n\n",
     "plan/architecture.md": "# Novel Architecture\n\n## Market Positioning Summary\n\n## Premise\n\n## Cast\n\n## World\n\n## Plot Architecture\n\n## Volume Map\n\n## Ending Vector\n\n",
     "plan/volume-map.md": "# Volume Map\n\n| Volume | Chapters | Arc Promise | Major Turn | Ending State |\n|---|---|---|---|---|\n",
@@ -71,6 +71,7 @@ def main() -> int:
         state_path.write_text(json.dumps(STATE, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"Novel project scaffolded at {root}")
+    print("Before drafting any chapter, read references/hard-rules.md (P0/P1 craft rules + chapter packet template + audit snapshot).")
     return 0
 
 

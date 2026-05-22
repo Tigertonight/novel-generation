@@ -126,22 +126,27 @@ When romance or intimate tension is enabled, define the project's explicitness b
 ## Object / Mechanism Ledger Format
 
 ```markdown
-| ID | Item / mechanism | Owner | Location | State | Rule / use | Cost / limit | Last used | Upgrade / change path | Payoff target | Status |
-|---|---|---|---|---|---|---|---|---|---|---|
-| O-001 | ... | ... | ... | active | ... | ... | Ch. 003 | ... | Ch. 018 | planted |
+| ID | Item / mechanism | Owner | Location | State | Rule / use | Cost / limit | Failure mode | Enemy counter | Last used | Upgrade / change path | Payoff target | Status |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| O-001 | ... | ... | ... | active | ... | ... | ... | ... | Ch. 003 | ... | Ch. 018 | planted |
 ```
 
-Use this ledger for weapons, artifacts, clues, contracts, titles, systems, abilities, resources, and recurring opportunities. If an item was important enough to hook the reader, it needs a payoff, transformation, loss, upgrade, or explicit retirement.
+Use this ledger for weapons, artifacts, clues, contracts, titles, systems, abilities, resources, and recurring opportunities. If an item was important enough to hook the reader, it needs a payoff, transformation, loss, upgrade, or explicit retirement (hard-rules.md rule #5).
+
+- **Failure mode**: how/when this thing fails or can't be used. If always available with no failure mode, it breaks the story.
+- **Enemy counter**: how opponents respond, neutralize, or exploit it. Required so the protagonist can't win on autopilot.
 
 ## Payoff Ledger Format
 
 ```markdown
-| Chapter | Payoff type | Setup source | On-page reward | Cost / consequence | Next escalation |
-|---:|---|---|---|---|---|
-| 003 | public correction | Ch. 001 insult | opponent exposed before witnesses | new enemy notices | faction retaliation |
+| Chapter | Payoff type | Setup chapters | On-page reward | Witnesses | Cost / consequence | Variety vs last 3 chapters | Next escalation |
+|---:|---|---|---|---|---|---|---|
+| 003 | public correction | Ch. 001 insult, Ch. 002 setup | opponent exposed before witnesses | rival faction head, two clerks | new enemy notices | last 3 were upgrade/reveal/upgrade — different type | faction retaliation in Ch. 008 |
 ```
 
-Rotate payoff types across a batch. A strong batch usually mixes external win, emotional movement, mechanism clarity, relationship heat, and a new cost rather than repeating one reward pattern.
+Type library (rotate from this — see hard-rules.md rule #6): competence proof / face-slap / upgrade / resource gain / mechanism reveal / identity reversal / clue reveal / rescue / revenge / protection / escape / intimacy heat / jealousy / commitment / faction expansion / ally gained / reputation / dignity recovery / catharsis.
+
+Rotate payoff types across a batch. A strong batch usually mixes external win, emotional movement, mechanism clarity, relationship heat, and a new cost rather than repeating one reward pattern. **Hard rule**: no 5-10 chapter batch should be >60% one type; commercial projects should not go 3 chapters with no effective payoff.
 
 ## Foreshadowing Ledger Format
 

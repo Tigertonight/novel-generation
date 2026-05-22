@@ -24,31 +24,43 @@ After anchors, write accepted decisions into `bible/style-bible.md`.
 
 ## Chapter Packet
 
-Before writing a chapter, build a packet:
+Before writing a chapter, build a packet. **Hard rules (`hard-rules.md` rule #8) require the fields marked [HR]; missing any of them is P0.**
 
 ```markdown
 # Chapter Packet NNN
 
-## Mission
+## Mission [HR]
 <directory entry: function, beats, changes, required payoff/plant>
+
+## Dual Goals [HR]
+- External goal (本章外部目标):
+- Private interior goal (本章私下情绪目标):
 
 ## Reader Experience
 - character impression to strengthen
-- new characters introduced and their entrance anchors
+- new characters introduced and their entrance anchors (use the 5-anchor block below) [HR]
 - appearance/current-state impression to render, if relevant
 - side-view reaction to the character, if useful
-- POV/interiority target: what the reader should feel from inside the character
+- POV/interiority target: what the reader should feel from inside the character [HR]
 - world/context detail to reveal through action
 - stage conflict or reversal in this chapter
-- reward/payoff expectation for this chapter
+- reward/payoff expectation for this chapter [HR for commercial projects]
 - emotional question the reader should carry forward
+
+## New Character Entrances [HR — fill per character; see character-entrance-craft.md]
+- Name:
+  - 1 Identity anchor:
+  - 2 Visual/physical anchor (specific detail, no generic words):
+  - 3 Scene-relevance anchor (why here, why now):
+  - 4 POV/social-reading anchor (how POV reads, misreads, fears, desires):
+  - 5 Behavioral hook (one line/action/habit/choice):
 
 ## Dramatic Craft
 - scene-level dramatic action: goal -> obstacle -> result
-- value shift: what changes from chapter start to end
+- value shift: what changes from chapter start to end [HR]
 - character arc pressure: Ghost / Lie / Flaw / Want / Need involved
 - dual-track pacing: external plot intensity + internal emotional intensity
-- interior turn: how the POV's private understanding, desire, fear, shame, trust, or self-deception changes
+- interior turn: how the POV's private understanding, desire, fear, shame, trust, or self-deception changes [HR]
 - subtext/action plan: what should be shown through behavior rather than explained
 
 ## Context
@@ -66,17 +78,18 @@ Before writing a chapter, build a packet:
 - relevant world rules
 - relevant continuity facts
 
-## Immersion / Jargon Control
+## Immersion / Jargon Control [HR]
 - POV character:
 - narrative distance: close / medium-close / cinematic with interior beats / other
 - dominant inner pressure:
 - body-mind signal:
 - memory/wound touched:
 - line of thought to leave unfinished:
-- professional-detail budget:
+- professional-detail budget (default 0-2 new terms):
 - new technical terms allowed:
 - plain-language consequence for each technical detail:
 - career/workline content to compress or omit:
+- jargon to explicitly avoid stacking (terms not to use in this chapter):
 
 ## Foreshadowing
 - must plant
@@ -84,11 +97,15 @@ Before writing a chapter, build a packet:
 - must pay off
 - must not reveal yet
 
-## Payoff / Continuity Objects
+## Payoff / Continuity Objects [HR for commercial projects]
 - payoff to deliver or delay
+- payoff type (must rotate vs last 3 chapters; see hard-rules.md rule #6 type library):
+- prior setup chapters (where the buildup was planted):
+- payoff cost / consequence:
+- next escalation direction:
 - important object/weapon/system/clue state before chapter
 - object/weapon/system/clue state after chapter
-- cost, loss, upgrade, or consequence to carry forward
+- cost, loss, enemy counter, or consequence to carry forward [HR rule #5]
 
 ## Intimacy / Heat Craft, If Enabled
 - scene function: temptation / care / power / jealousy / boundary / trust / rupture / repair / consummation / aftermath
@@ -109,6 +126,11 @@ Before writing a chapter, build a packet:
 - Scene Style Mode:
 - Golden Sample / Anti Sample guidance:
 - Comparable references to borrow from only at the level of genre expectations, pacing, narration distance, and scene density:
+
+## Hand-off [HR]
+- ending hook:
+- emotional aftertaste / 情绪余波:
+- one-line interior turn (POV 私下变了什么):
 
 ## Output Contract
 - prose only unless user asks otherwise
